@@ -23,7 +23,7 @@ target_layers = ['102_act', '103_act', '104_act']  # yolov7
 
 # Arguments
 parser = argparse.ArgumentParser()
-parser.add_argument('--model-path', type=str, default="weights/yolov7.pt", help='Path to the model')
+parser.add_argument('--model-path', type=str, default="yolov7.pt", help='Path to the model')
 parser.add_argument('--img-path', type=str, default='figure/cam', help='input image path')
 parser.add_argument('--output-dir', type=str, default='outputs/', help='output dir')
 parser.add_argument('--img-size', type=int, default=640, help="input image size")
